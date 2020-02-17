@@ -1,0 +1,18 @@
+#!/bin/bash
+# WARNING: This file has been auto-generated. DO NOT EDIT: WARNING
+# Created on 2020-02-17T20:40:58+1100, using template:run.tmpl and json:traefik-1.7.20.json
+
+# See gearboxworks/gearbox-base for details.
+. /build/include-me.sh
+
+c_ok "Gearbox[traefik]: Starting."
+
+GBEP="$(which ${GEARBOX_ENTRYPOINT})"
+if [ "${GBEP}" != "" ]
+then
+	${GBEP} ${GEARBOX_ARGS}
+else
+	# Add your service entry here, if no entrypoint defined in the ref container.
+	echo ""
+fi
+

@@ -1,0 +1,25 @@
+{
+	"state": "production",
+	"organization": "gearboxworks",
+	"name": "traefik",
+	"maintainer": "Gearbox Team <team@gearbox.works>",
+	"version": "1.7.20",
+	"majorversion": "1.7",
+	"latest": "",
+	"class": "dbserver",
+	"network": "--network gearboxnet",
+	"ports": [
+		"80",
+		"8080"
+	],
+	"volumes": "",
+	"restart": "--restart no",
+	"args": "traefik",
+	"env": {
+		"USER": "gearbox"
+	},
+	"ref": "traefik:1.7.20-alpine",
+	"refurl": "https://containo.us/traefik/",
+	"base": "gearboxworks/gearbox-base:alpine-3.10"
+}
+

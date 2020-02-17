@@ -1,0 +1,12 @@
+#!/bin/bash
+# WARNING: This file has been auto-generated. DO NOT EDIT: WARNING
+# Created on 2020-02-17T20:40:58+1100, using template:finish.tmpl and json:traefik-1.7.20.json
+
+# See gearboxworks/gearbox-base for details.
+. /build/include-me.sh
+
+# Required to avoid services starting too quickly.
+sleep 5
+
+c_ok "Gearbox[traefik]: Stopped."
+
