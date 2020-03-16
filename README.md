@@ -1,3 +1,5 @@
+![release](https://github.com/gearboxworks/docker-traefik/workflows/release/badge.svg?event=release)
+
 ![postgresql 1.7.20](https://img.shields.io/badge/postgresql-1.7.20-green.svg)
 
 ![Gearbox](https://github.com/gearboxworks/gearbox.github.io/raw/master/Gearbox-100x.png)
